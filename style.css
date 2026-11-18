@@ -1,0 +1,94 @@
+* { margin: 0; padding: 0; font-family: sans-serif; } 
+
+.title{ width: 100%; padding: 50px; background-color: #8cc0f3; font-size: 30px; }
+ 
+.links{ text-align: center; margin-top: -50px; } 
+
+a{ margin-left: 120px; color: black; cursor: pointer; } 
+ 
+.paragraph{ width: 800px; background-color: #8cc0f3; padding: 30px; font-size: 20px; line-height: 30px; text-align: center; margin-left: 500px; margin-top: 100px; } 
+ 
+.button{ background-color: #8cc0f3; font-size: 25px; padding: 20px; border-radius: 35px; margin-top: 40px; margin-left: 780px; cursor: pointer; text-align: center; } 
+ 
+.image{ width: 860px; margin-left: 500px; margin-top: 40px; } 
+ 
+.footer{ background-color: #8cc0f3; padding: 50px; margin-top: 40px; } 
+ 
+.footer-image{ width: 50px; display: flex; margin-top: 10px; margin-left: 20px; } 
+ 
+.footer-text{ margin-left: 100px; margin-top: -40px;}
+
+.services-title{
+    margin-top: 50px;
+    background-color: #8cc0f3;
+    padding: 20px;
+    font-size: 45px;
+    width: 300px;
+    text-align: center;
+    margin-left: 750px;
+}
+.service-box{
+    margin-top: 60px;
+    background-color: #8cc0f3;
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+    margin-left: 180px;
+}
+.bloated{
+    font-size: 40px;
+}
+.junior{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.service-two{
+    background-color: #8cc0f3;
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+    margin-left: 1000px;
+    margin-top: -270px;
+}
+.image-two{
+    width: 1200px;
+    margin-left: 315px;
+    margin-top: 40px;
+}
+.video{
+    width: 1500px;
+    margin-top: 50px;
+    margin-left: 185px;
+}
+.about-title{
+     margin-top: 70px;
+    background-color: #8cc0f3;
+    padding: 20px;
+    font-size: 45px;
+    width: 300px;
+    text-align: center;
+    margin-left: 750px;
+}
+.par{
+    width: 700px; background-color: #8cc0f3; padding: 30px; font-size: 20px; line-height: 30px; text-align: center; margin-left: 100px; margin-top: 140px; 
+}
+.bus{
+    width: 700px; margin-left: 1000px; margin-top: -350px;
+}
+
+.dashboard{
+    margin-top: -22px;
+    display: flex;
+    margin-left: 570px;
+}
+
+.space{
+    margin-left: 10px;
+}
+
+form{
+    margin-top: 80px;
+}
+
+    
