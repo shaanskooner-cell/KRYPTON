@@ -91,4 +91,235 @@ form{
     margin-top: 80px;
 }
 
+
+/* =====================================
+   KRYPTON RESPONSIVE DESIGN
+   ===================================== */
+
+/* TABLETS AND SMALLER LAPTOPS */
+@media (max-width: 1100px) {
+
+    /* Header and navigation */
+    .title {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .links {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px 25px;
+    }
+
+    a {
+        margin-left: 0;
+    }
+
+    /* Home page */
+    .paragraph {
+        box-sizing: border-box;
+        width: calc(100% - 40px);
+        max-width: 800px;
+        margin: 60px auto 0;
+    }
+
+    .image {
+        display: block;
+        width: calc(100% - 40px);
+        max-width: 860px;
+        height: auto;
+        margin: 40px auto 0;
+    }
+
+    /* Buttons */
+    .button {
+        display: block;
+        width: fit-content;
+        max-width: calc(100% - 40px);
+        box-sizing: border-box;
+        margin: 40px auto 0;
+    }
+
+    /* Page headings */
+    .services-title,
+    .about-title {
+        box-sizing: border-box;
+        width: fit-content;
+        max-width: calc(100% - 40px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Services page */
+    .service-box,
+    .service-two {
+        box-sizing: border-box;
+        width: calc(100% - 40px);
+        max-width: 600px;
+        margin: 40px auto 0;
+    }
+
+    .image-two {
+        display: block;
+        width: calc(100% - 40px);
+        max-width: 1200px;
+        height: auto;
+        margin: 40px auto 0;
+    }
+
+    /* About page */
+    .par {
+        box-sizing: border-box;
+        width: calc(100% - 40px);
+        max-width: 700px;
+        margin: 60px auto 0;
+    }
+
+    .bus {
+        display: block;
+        width: calc(100% - 40px);
+        max-width: 700px;
+        height: auto;
+        margin: 40px auto 0;
+    }
+
+    /* Our Work page */
+    .video {
+        display: block;
+        width: calc(100% - 40px);
+        max-width: 1500px;
+        height: auto;
+        margin: 50px auto 0;
+    }
+
+    /* Footer */
+    .dashboard {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 20px;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .space {
+        margin-left: 0;
+    }
+
+    .footer-text {
+        margin-left: 85px;
+    }
+
+    /* Contact page */
+    form {
+        box-sizing: border-box;
+        width: calc(100% - 40px);
+        max-width: 700px;
+        margin: 60px auto;
+    }
+}
+
+/* PHONES */
+@media (max-width: 600px) {
+
+    .title {
+        padding: 25px 15px;
+    }
+
+    .title h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .links {
+        gap: 12px 18px;
+    }
+
+    .links a {
+        font-size: 14px;
+    }
+
+    .paragraph,
+    .par {
+        width: calc(100% - 30px);
+        padding: 20px;
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 40px;
+    }
+
+    .image,
+    .image-two,
+    .bus,
+    .video {
+        width: calc(100% - 30px);
+        height: auto;
+    }
+
+    .services-title,
+    .about-title {
+        font-size: 32px;
+        padding: 15px;
+        margin-top: 40px;
+    }
+
+    .service-box,
+    .service-two {
+        width: calc(100% - 30px);
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    .bloated {
+        font-size: 28px;
+    }
+
+    .junior {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+
+    .footer {
+        padding: 30px 15px;
+    }
+
+    .footer-image {
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    .footer-text {
+        margin-left: 60px;
+        margin-top: -32px;
+        font-size: 18px;
+    }
+
+    .dashboard {
+        gap: 12px 15px;
+    }
+
+    .dashboard a {
+        font-size: 13px;
+    }
+
+    /* Contact form */
+    form > div:first-child {
+        flex-direction: column;
+        gap: 20px !important;
+    }
+
+    form input,
+    form textarea,
+    form select {
+        max-width: 100%;
+    }
+}
     
